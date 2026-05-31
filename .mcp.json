@@ -1,5 +1,16 @@
 {
   "mcpServers": {
+    "shrimp-task-manager": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-shrimp-task-manager@latest"
+      ],
+      "env": {
+        "DATA_DIR": "C:\\Users\\user\\workspace\\courses\\notion-cms-project\\.shrimp-task-manager"
+      }
+    },
     "playwright": {
       "type": "stdio",
       "command": "npx",
