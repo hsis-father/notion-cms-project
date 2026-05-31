@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "Write-Output '{\"systemMessage\": \"⚠️  caution! Bash 명령어가 실행됩니다.\"}'",
+            "shell": "powershell",
+            "statusMessage": "caution! 알림 표시 중..."
+          }
+        ]
+      }
+    ]
+  }
+}
