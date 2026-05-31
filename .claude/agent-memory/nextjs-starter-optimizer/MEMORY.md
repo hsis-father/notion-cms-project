@@ -1,0 +1,1 @@
+- [Notion CMS 프로젝트 초기화](project-notion-cms.md) — my-app/ Phase 1 완료, Next.js 16/React 19/Tailwind v4 특이사항 포함
