@@ -13,6 +13,7 @@ const navItems = [
   { href: "/category/Frontend", label: "Frontend" },
   { href: "/category/Backend", label: "Backend" },
   { href: "/category/DevOps", label: "DevOps" },
+  { href: "/report", label: "신고" },
 ]
 
 export default function Header() {
