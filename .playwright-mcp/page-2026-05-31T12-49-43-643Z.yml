@@ -1,0 +1,40 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e7]:
+      - img [ref=e8]
+    - generic [ref=e11]:
+      - button "Open issues overlay" [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e14]: "0"
+          - generic [ref=e15]: "1"
+        - generic [ref=e16]: Issue
+      - button "Collapse issues badge" [ref=e17]:
+        - img [ref=e18]
+  - banner [ref=e20]:
+    - generic [ref=e21]:
+      - link "개발 블로그" [ref=e22] [cursor=pointer]:
+        - /url: /
+        - img [ref=e23]
+        - generic [ref=e25]: 개발 블로그
+      - navigation [ref=e26]:
+        - link "홈" [ref=e27] [cursor=pointer]:
+          - /url: /
+          - button "홈" [ref=e28]
+        - link "Frontend" [ref=e29] [cursor=pointer]:
+          - /url: /category/Frontend
+          - button "Frontend" [ref=e30]
+        - link "Backend" [ref=e31] [cursor=pointer]:
+          - /url: /category/Backend
+          - button "Backend" [ref=e32]
+        - link "DevOps" [ref=e33] [cursor=pointer]:
+          - /url: /category/DevOps
+          - button "DevOps" [ref=e34]
+      - button "테마 전환" [ref=e36]:
+        - img [ref=e37]
+  - main [ref=e43]:
+    - generic [ref=e45]:
+      - heading "404" [level=1] [ref=e46]
+      - heading "This page could not be found." [level=2] [ref=e48]
+  - contentinfo [ref=e49]:
+    - paragraph [ref=e51]: © 2026 개발 블로그 · Notion CMS 기반
+  - alert [ref=e52]

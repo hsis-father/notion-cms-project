@@ -1,0 +1,33 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "개발 블로그" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e5]
+        - generic [ref=e7]: 개발 블로그
+      - navigation [ref=e8]:
+        - link "홈" [ref=e9] [cursor=pointer]:
+          - /url: /
+          - button "홈" [ref=e10]
+        - link "Frontend" [ref=e11] [cursor=pointer]:
+          - /url: /category/Frontend
+          - button "Frontend" [ref=e12]
+        - link "Backend" [ref=e13] [cursor=pointer]:
+          - /url: /category/Backend
+          - button "Backend" [ref=e14]
+        - link "DevOps" [ref=e15] [cursor=pointer]:
+          - /url: /category/DevOps
+          - button "DevOps" [ref=e16]
+      - button "테마 전환" [ref=e18]:
+        - img [ref=e19]
+  - main [ref=e25]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - paragraph [ref=e28]: 카테고리
+        - heading "Frontend" [level=1] [ref=e29]
+        - paragraph [ref=e30]: 총 0개의 글
+      - paragraph [ref=e32]: 아직 발행된 글이 없습니다.
+  - contentinfo [ref=e33]:
+    - paragraph [ref=e35]: © 2026 개발 블로그 · Notion CMS 기반
+  - button "Open Next.js Dev Tools" [ref=e41] [cursor=pointer]:
+    - img [ref=e42]

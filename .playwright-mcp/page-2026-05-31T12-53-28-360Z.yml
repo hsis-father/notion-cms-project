@@ -1,0 +1,46 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e7]:
+      - img [ref=e8]
+    - generic [ref=e11]:
+      - button "Open issues overlay" [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e14]: "0"
+          - generic [ref=e15]: "1"
+        - generic [ref=e16]: Issue
+      - button "Collapse issues badge" [ref=e17]:
+        - img [ref=e18]
+  - link "본문으로 이동" [ref=e20] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e21]:
+    - generic [ref=e22]:
+      - link "개발 블로그" [ref=e23] [cursor=pointer]:
+        - /url: /
+        - img [ref=e24]
+        - generic [ref=e26]: 개발 블로그
+      - navigation [ref=e27]:
+        - link "홈" [ref=e28] [cursor=pointer]:
+          - /url: /
+          - button "홈" [ref=e29]
+        - link "Frontend" [ref=e30] [cursor=pointer]:
+          - /url: /category/Frontend
+          - button "Frontend" [ref=e31]
+        - link "Backend" [ref=e32] [cursor=pointer]:
+          - /url: /category/Backend
+          - button "Backend" [ref=e33]
+        - link "DevOps" [ref=e34] [cursor=pointer]:
+          - /url: /category/DevOps
+          - button "DevOps" [ref=e35]
+      - button "테마 전환" [ref=e37]:
+        - img [ref=e38]
+  - main [ref=e44]:
+    - generic [ref=e45]:
+      - img [ref=e46]
+      - heading "404" [level=1] [ref=e49]
+      - paragraph [ref=e50]: 요청하신 페이지를 찾을 수 없습니다.
+      - link "홈으로 돌아가기" [ref=e51] [cursor=pointer]:
+        - /url: /
+        - button "홈으로 돌아가기" [ref=e52]
+  - contentinfo [ref=e53]:
+    - paragraph [ref=e55]: © 2026 개발 블로그 · Notion CMS 기반
+  - alert [ref=e56]
